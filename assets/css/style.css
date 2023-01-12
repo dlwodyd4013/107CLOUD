@@ -1,0 +1,68 @@
+html{
+	scroll-behavior: smooth;
+}
+body{
+    background-color: #01193f;
+}
+a i{
+	color:#fff;
+}
+.telegram-img {
+    width: 17px !important;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+ul li{
+	list-style: none;
+}
+.card.card-coin hr {
+    width: 24%;
+    margin-left: 38%;
+}
+.page-header .content-center {
+    position: absolute;
+    top: 85%;
+}
+.index-page .squares {
+background: linear-gradient(0deg,#008bc2 0,#fae450 100%);
+}
+
+.navbar {
+    background: #0294cf;
+}
+.square1, .square2, .square3, .square4 , .square5 , .square6{
+	z-index: 5;
+}
+#bgContainer {
+	background: url('../img/banner.jpg') no-repeat;
+	background-position: center;
+ 	background-position-y: 100px;
+}
+.section-coins {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px){
+	.page-header .content-center img {
+	    height:auto;
+	    margin-top: 0px;
+	}
+}
+@media (max-width: 520px) {
+	#bgContainer  {
+		background-size: 350px;
+		
+	}
+	.square1 ,.square3 , .square4 , .square6{
+		z-index: 0;
+	}
+	.wrapper .page-header .content-center.brand {
+    	width: 100%;
+	}
+	.section.section-lg.section-coins{
+		padding-top: 0px;
+	}
+
+}
