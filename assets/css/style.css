@@ -39,7 +39,15 @@ background: linear-gradient(0deg,#008bc2 0,#fae450 100%);
 	background: url('../img/banner.jpg') no-repeat;
 	background-position: center;
  	background-position-y: 100px;
+	animation: move-left-right 3s infinite;
+	cursor: pointer;
 }
+#canvas{
+	left: -386px !important;
+    position: relative;
+}
+    
+
 .section-coins {
     margin-top: 10px;
 }
